@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<resources>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="layout_content_padding">16dp</dimen>
+    <dimen name="item_spacing_medium">12dp</dimen>
+    <dimen name="item_spacing_small">8dp</dimen>
+</resources>
