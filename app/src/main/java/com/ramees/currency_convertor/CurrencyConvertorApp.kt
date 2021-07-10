@@ -18,7 +18,7 @@ class CurrencyConvertorApp : Application() {
         }
 
         RxJavaPlugins.setErrorHandler {
-            Log.e(CurrencyConvertorApp::class.simpleName,it.message?:"")
+            Log.e(CurrencyConvertorApp::class.simpleName,it.message?:"RxJavaPlugins undelivered exception - no message")
         }
     }
 }

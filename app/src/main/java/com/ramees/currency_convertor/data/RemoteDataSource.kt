@@ -11,7 +11,7 @@ interface RemoteDataSource {
 class RetrofitDataSource(private val service: RemoteService) : RemoteDataSource {
 
     companion object {
-        const val ACCESS_KEY = "73b962bed17d852f84a293c1bf54b0f1"
+        const val ACCESS_KEY = ""
     }
 
     override fun getCurrencies(): Observable<Resource<List<CurrencyItem>>> {
